@@ -33,7 +33,7 @@ function love.draw()
   love.graphics.setLineWidth(10)
   love.graphics.rectangle("line", 0, 0, 640, 480)
   
-  -- print 'SCORE' in white on top left of screen
+  -- print 'SPACE INVADERS' in white on top left of screen & 'SCORE' on top right of screen
   love.graphics.setColor(255,255,255)
   love.graphics.print("SPACE INVADERS", 18, 18)
   love.graphics.print("SCORE", 450, 18)
